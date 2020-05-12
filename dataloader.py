@@ -31,8 +31,6 @@ class TrainPerson(Dataset):
             transforms.ToTensor()
             ])
         self.file_names = sorted(os.listdir("/storage/ProtopopovI/_data_/COCO/2014/val2014/"))
-
-    def get_shape(self, ):
     	
         
     def transform_score_label(self, depth2):

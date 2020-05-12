@@ -3,4 +3,7 @@ __pycache__/
 backbone/__pycache__/
 backbone/.ipynb_checkpoints
 
+pathignore/
+runs/
+
 test.json
